@@ -2,7 +2,7 @@
 {
     public class Department: Accessor
     {
-        public Guid Id { get; set; }
+        public Guid DepartmentId { get; set; }
         public List<EmployeeFunction> EmployeeFunctions { get; set; }
     }
 }

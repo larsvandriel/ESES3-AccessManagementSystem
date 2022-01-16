@@ -8,7 +8,7 @@ namespace AccessManagementSystem.Entities.Models
 {
     public class Employee: Accessor
     {
-        public Guid Id { get; set; }
+        public Guid EmployeeId { get; set; }
         public int EmployeeNumber { get; set; }
         public List<Department> WorksInDepartments { get; set; }
         public List<EmployeeFunction> Functions { get; set; }

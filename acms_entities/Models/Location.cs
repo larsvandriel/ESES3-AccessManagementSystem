@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace AccessManagementSystem.Entities.Models
 {
-    public class Location
+    public class Location: IEntity
     {
         public Guid Id { get; set; }
         public int LocationNumber { get; set; }

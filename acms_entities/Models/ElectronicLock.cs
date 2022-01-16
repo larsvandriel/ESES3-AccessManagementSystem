@@ -1,6 +1,6 @@
 ﻿namespace AccessManagementSystem.Entities.Models
 {
-    public class ElectronicLock
+    public class ElectronicLock: IEntity
     {
         public Guid Id { get; set; }
         public string SerialNumber { get; set; }
